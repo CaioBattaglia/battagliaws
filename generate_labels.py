@@ -51,7 +51,7 @@ def detect_labels(photo, bucket):
 
 def main():
     photo = 'roidz2.jpg'
-    bucket = 'my-rekognition-bucket-battaglia'
+    bucket = 'battagliaws.click'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
 
